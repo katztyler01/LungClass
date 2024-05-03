@@ -35,6 +35,7 @@ The logistic regression implementation can be viewed and run in the notebook `lo
 
 ## ResNet50 on Raw Images
 ### How to download image dataset used in analysis
+While in ResNet50_raw_images directory
 ```
 python3 batch_download_zips.py
 ```
