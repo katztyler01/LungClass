@@ -33,3 +33,11 @@ The Lasso regression implementation can be viewed and run in the notebook `Lasso
 ## Logistic Regression
 The logistic regression implementation can be viewed and run in the notebook `log_reg.ipynb`.
 
+## ResNet50 on Raw Images
+### How to download image dataset used in analysis
+```
+python3 batch_download_zips.py
+```
+Running this automatically downloads and unzips each of the images used into the ResNet50_raw_images/images/ directory (takes a while since there are ~40 GB of images).
+
+The ResNet50 on raw images implementation can be found in the notebook in the ResNet50_raw_images directory called `ResNet50.ipynb`
