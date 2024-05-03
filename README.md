@@ -4,8 +4,9 @@
 DreamBooth model downloaded and used from this link :<br> https://github.com/huggingface/diffusers/tree/main/examples/dreambooth <br>
 
 
-CXR-CLIP model downloaded and used from this link :<br> https://github.com/kakaobrain/cxr-clip <br>
-1.Environment setup: 
+#CXR-CLIP model downloaded and used from this link :
+<br> https://github.com/kakaobrain/cxr-clip <br>
+1.Environment setup: <br>
 pip install -r requirements.txt<br>
 2.Pre-Train model:<br> 
 torchrun --nproc_per_node=4 --nnodes=1 --node_rank=0 --master_addr=127.0.0.1 --master_port=45678 train.py {--config-name default_config}<br>
