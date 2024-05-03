@@ -33,6 +33,10 @@ The Lasso regression implementation can be viewed and run in the notebook `Lasso
 ## Logistic Regression
 The logistic regression implementation can be viewed and run in the notebook `log_reg.ipynb`.
 
+You can run the balanced logistic regression classification on each label by modifying the label in the last
+cell as outlined in the comments in the slide. Additionally, you can change if you would like to do feature
+selection with PCA, Lasso Regression, or none.
+
 ## ResNet50 on Raw Images
 ### How to download image dataset used in analysis
 While in ResNet50_raw_images directory
