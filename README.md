@@ -6,7 +6,7 @@
 
 
 ## CXR-CLIP model  
-<br>downloaded and used from this link : https://github.com/kakaobrain/cxr-clip <br>
+<br>downloaded and used from this link : <br>https://github.com/kakaobrain/cxr-clip <br>
 1.Environment setup: <br>
 pip install -r requirements.txt<br>
 2.Pre-Train model:<br> 
